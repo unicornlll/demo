@@ -1,0 +1,153 @@
+/**基本格式开始***************/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+	list-style:none;
+}
+img,a img {
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.auto {
+	width:960px;
+	margin:0 auto;
+}
+/**基本格式结束***************/
+body {
+	background-color:black;
+}
+#top {
+	background-color:#3C3C3C;
+	width:930px;
+	height:70px;
+}
+#top .nav {
+	float:right;
+}
+#top .nav ul {
+	width:360px;
+	white-space: nowrap;/*防止换行*/
+	margin-top:22px;
+}
+#top .nav li {
+	float:left;
+	width:90px;
+}
+#top .nav ul li a {
+	color:white;
+}
+#top img {
+	margin:15px 0 0 10px;	
+}
+
+#main {
+	background-color:#DDDDDD;
+	width:930px;
+	margin-top:0px;
+	margin:0 auto;
+	padding: 1px;/*解决两个div一起跟着margin向下移动问题，也可以用position:absolute;不过会影响左右居中*/
+}
+#main .same {
+	margin:30px;
+	background-color:white;
+	border-right:3px solid #9D9D9D;
+	border-bottom:3px solid #9D9D9D;
+	padding:20px;
+}
+#main h1 {
+	font-size:20px;
+	padding-bottom:5px;
+}
+#main h2 {
+	font-size:15px;
+	color:#9D9D9D;
+	padding-bottom:5px;
+}
+#main h3 {
+	font-size:10px;
+	color:#9D9D9D;
+	padding-bottom:5px;
+}
+#main .main1 p {
+	text-indent:2em; 
+	padding:0px; 
+	margin:0px; 
+}
+#main .main2 p {
+	text-indent:2em; 
+	padding:0px; 
+	margin:0px; 
+}
+#main .main1 img {
+	margin:10px 0 10px 0;
+}
+#main .main2 img {
+	margin:10px 0 10px 0;
+}
+#main .main3 .img {
+	border:1px solid #DDDDDD;
+	width:100px;
+	margin:0 0 5px 15px;
+}
+#main .main3 .img img {
+	height:80px;
+	width:80px;
+	display:block;
+	margin:8px auto;/*加display才生效*/
+}
+#main .main3 .img p {
+	text-align:center;
+	margin-top:5px;
+}
+#main .main4 ol {
+	margin-left:30px;
+}
+#main .main4 li{
+	list-style-type:decimal;
+}
+#main .main4 table {
+	width:800px;
+}
+#main .main4 .one {
+	background-color:black;
+	color:white;
+}
+#main .main4 .two {
+	background-color:#DDDDDD;
+}
+#main .main5 {
+	height:400px;
+}
+#main .main5 h2 {
+	color:black;
+	border-left:3px solid #DDDDDD;
+	padding-left:20px;
+}
+#main .main5 table {
+	margin-left:100px;	
+}
+#main .main5 span {
+	font-size:20px;
+}
+#main .main5 textarea {
+	width:400px;
+	height:80px;
+}
+#main .main5 .last {
+	margin:0 auto;
+	width:820px;
+	background-color:blue;
+	border:none;
+	height:30px;
+	color:white;
+	border-radius:10px;  
+}
+#main .main5 table tr {
+	height:30px;
+}
