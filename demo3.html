@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>网页标题</title>
+<link rel="stylesheet" type="text/css" href="images/demo2.css" />
+</head>
+<body>
+	<style>
+* {margin:0; padding:0;}
+body {font:1em helvetica, arial, sans-serif;}
+div#main_wrapper {
+	min-width:600px; max-width:1100px;  
+	margin:0 auto; 
+	background:#eee;
+	}
+div#threecolwrap {
+	float:left;
+	width:100%;
+	border:1px solid #999;
+	background:#eee;
+	}
+div#twocolwrap {
+ 	float:left;
+	width:100%;
+	display:inline; /* stops IE doubling margin on float*/
+	margin-right:-162px; /* neg margin move */
+	}
+nav {
+ 	float:left;
+ 	width:200px;
+	background:white;
+	padding:20px 0;
+	border:1px solid #999;
+	margin:20px;
+	}
+nav img {
+	width:80px;
+	height:80px;
+	margin:10px 20px;
+	float:left;
+}
+nav p {
+	margin-top:5px;
+}
+article {
+ 	width:auto;
+ 	margin-left:242px;
+ 	margin-right:162px;
+ 	height:1%; /* forces hasLayout on IE */
+	background:white;
+	padding:20px;
+	border:1px solid #999;
+	margin-top:20px;
+	}
+article p {
+	font-family:'Open Sans Condensed';
+	font-weight:300;
+	font-size:1em;
+	color:#000;
+	}
+aside {
+ 	float:left;
+ 	width:120px; 
+	background:white;
+	padding:20px 0;
+	border:1px solid #999;
+	margin:20px;
+	}
+aside img {
+	width:80px;
+	height:80px;
+	margin:10px 20px;
+}
+/* end of structural styles */ 
+</style>
+</head>
+
+<body>
+<div id="main_wrapper">
+
+  
+  <div id="threecolwrap">  <!--encloses the three columns-->
+    <div id="twocolwrap">  <!-- encloses the left and center columns-->
+    
+      <nav>  <!-- the left column-->
+          <img src="images/1.jpg" />
+		  <p>团队名称</p>
+      </nav>
+      
+      <article> <!-- the center column -->
+          <!--start of page content-->
+          
+          <p>关于你们团队的介绍</p>
+       
+          <!--end of page content-->
+      </article>  <!--end of content section-->
+      
+    </div>  <!--end of twocolwrap-->
+    
+    <aside>
+		<img src="images/1.jpg" />
+		<img src="images/1.jpg" />
+		<img src="images/1.jpg" />
+    </aside>  <!--end of promo div-->
+    
+  </div>  <!--end of threecolwrap div-->
+
+	
+	
+</body>
+</html>
